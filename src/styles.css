@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Chokokutai&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: rgb(53, 20, 31);
+  font-family: "Chokokutai", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+header {
+  background: #460f22a8;
+  width: 100vw;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav {
+  display: flex;
+  gap: 5rem;
+}
+button {
+  font-size: 3rem;
+  padding: 1rem;
+  color: rgb(218, 191, 243);
+  background: #3a2201a3;
+
+  border-radius: 5px;
+}
+.active {
+  background: #000 !important;
+  color: #fff;
+}
+#content {
+  width: 90vw;
+  height: 78vh;
+  background-image: url("./assets/bangali-food.webp");
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.home {
+  background-image: url("./assets/bangali-food.webp") !important;
+}
+.menu {
+  background-image: url("https://b.zmtcdn.com/data/pictures/4/19781734/23a24625883f2f3a9049ad933a1a5b39_featured_v2.jpg") !important;
+}
+.about {
+  background-image: url("https://static.photodexia.com/largeweb/repository/u-enblog/e35b7c3b7b364116af0a3489bb378b29photo1703059105493063d7c0c74f8") !important;
+}
+#content h2 {
+  font-size: 4rem;
+  color: rgb(248, 251, 77);
+  background-color: rgba(15, 2, 2, 0.252);
+  padding: 10px;
+  margin: 10px;
+}
+#content p {
+  font-size: 2rem;
+  color: #c798e5;
+  padding: 10px;
+}
+ul {
+  background: #00000068;
+  width: 25rem;
+  /* height: 10rem; */
+  padding: 1rem;
+  background: #260b11;
+}
+li {
+  color: rgba(140, 140, 228, 0.566);
+  font-size: 2rem;
+  list-style: none;
+}
+footer {
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  bottom: 0px;
+  background: #000;
+  color: rebeccapurple;
+  text-align: center;
+  padding-top: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  #content h2 {
+    font-size: 3rem;
+  }
+}
